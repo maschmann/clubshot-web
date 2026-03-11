@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vereinsverwaltung - Clubshot</title>
+    <meta name="description" content="Die smarte Vereinsverwaltung für Schützenvereine im DSB und BDS.">
+    <link rel="icon" type="image/svg+xml" href="/assets/faviconv2.1.svg">
+    <link rel="icon" type="image/png" href="/assets/favicon-128x128.png">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="/de/">
+                <img src="/assets/Clubshotv2.1.svg" alt="Clubshot Logo" height="40" class="me-2 d-inline-block align-text-top">
+                <span class="fw-bold fs-4 text-primary">Clubshot</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/de/features/">Funktionen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/de/about/">Über uns</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-primary rounded-pill px-4" href="/de/features/">Jetzt starten</a>
+                    </li>
+                    <li class="nav-item dropdown ms-lg-3 mt-3 mt-lg-0">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            DE
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="/de/">DE</a></li>
+                            <li><a class="dropdown-item" href="/en/">EN</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                        <button id="theme-toggle" class="btn btn-link nav-link px-2" aria-label="Toggle theme">
+                            <!-- SVG icons for sun/moon, handled in JS or CSS, let's just use text for simplicity or emojis -->
+                            <span class="theme-icon-light d-none">🌞</span>
+                            <span class="theme-icon-dark">🌙</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="hero-section text-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold mb-4">Die smarte Vereinsverwaltung für Schützenvereine</h1>
+        <p class="lead mb-5 text-muted">Optimiert für DSB und BDS. Verwalten Sie Mitglieder, Arbeitsdienste und Wettkämpfe effizienter als je zuvor.</p>
+        <a href="/de/features/" class="btn btn-primary btn-lg rounded-pill px-5">Jetzt starten</a>
+    </div>
+</div>
+
+<div class="container py-5">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col text-center">
+            <div class="feature-icon mx-auto">👥</div>
+            <h3 class="fs-4">Mitgliederverwaltung</h3>
+            <p class="text-muted">Intuitive Verwaltung von Mitgliedsdaten mit flexiblem CSV-Import.</p>
+        </div>
+        <div class="col text-center">
+            <div class="feature-icon mx-auto">📋</div>
+            <h3 class="fs-4">Arbeits- &amp; Standaufsicht</h3>
+            <p class="text-muted">Einfache Planung von Arbeitsdiensten und Standaufsichten mit Dienstplan.</p>
+        </div>
+        <div class="col text-center">
+            <div class="feature-icon mx-auto">🎯</div>
+            <h3 class="fs-4">Schießbuch &amp; Wettkämpfe</h3>
+            <p class="text-muted">Persönliches Schießbuch und Wettkampftracking mit PDF-Export.</p>
+        </div>
+    </div>
+    <div class="text-center mt-2">
+        <a href="/de/features/" class="btn btn-outline-primary rounded-pill px-4">Alle Funktionen entdecken</a>
+    </div>
+</div>
+    </main>
+
+    <footer class="bg-body-tertiary py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0 text-muted">&copy; 2026 Clubshot. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/js/main.js"></script>
+</body>
+</html>

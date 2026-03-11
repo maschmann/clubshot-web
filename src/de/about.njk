@@ -1,0 +1,28 @@
+---
+layout: base.njk
+title: Über uns
+description: Erfahren Sie mehr über Clubshot.
+lang: de
+---
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 text-center mt-4">
+            <div class="mb-4">
+                <img src="/assets/Clubshotv2.1.svg" alt="Clubshot Logo" height="80" class="mb-3">
+            </div>
+            <h1 class="display-5 fw-bold mb-4">{{ translations[lang].aboutTitle }}</h1>
+            <p class="lead mb-4">{{ translations[lang].aboutText1 }}</p>
+            <p class="fs-5 text-muted mb-5">{{ translations[lang].aboutText2 }}</p>
+            
+            <hr class="my-5">
+            
+            <h3 class="fw-bold mb-3">Kontakt</h3>
+            <p class="text-muted">Interesse geweckt? Kontaktieren Sie uns für weitere Informationen.</p>
+            <a href="mailto:info@myclubshot.de" class="btn btn-primary rounded-pill px-5 my-3">info@myclubshot.de</a>
+            
+            <div class="mt-5">
+                <a href="/{{ lang }}/" class="btn btn-outline-secondary rounded-pill px-4">{{ translations[lang].home }}</a>
+            </div>
+        </div>
+    </div>
+</div>

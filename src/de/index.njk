@@ -1,0 +1,36 @@
+---
+layout: base.njk
+title: Vereinsverwaltung
+description: Die smarte Vereinsverwaltung für Schützenvereine im DSB und BDS.
+lang: de
+---
+<div class="hero-section text-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold mb-4">{{ translations[lang].heroTitle }}</h1>
+        <p class="lead mb-5 text-muted">{{ translations[lang].heroSubtitle }}</p>
+        <a href="/{{ lang }}/features/" class="btn btn-primary btn-lg rounded-pill px-5">{{ translations[lang].cta }}</a>
+    </div>
+</div>
+
+<div class="container py-5">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col text-center">
+            <div class="feature-icon mx-auto">👥</div>
+            <h3 class="fs-4">{{ translations[lang].feature1Title }}</h3>
+            <p class="text-muted">{{ translations[lang].feature1Desc }}</p>
+        </div>
+        <div class="col text-center">
+            <div class="feature-icon mx-auto">📋</div>
+            <h3 class="fs-4">{{ translations[lang].feature2Title }}</h3>
+            <p class="text-muted">{{ translations[lang].feature2Desc }}</p>
+        </div>
+        <div class="col text-center">
+            <div class="feature-icon mx-auto">🎯</div>
+            <h3 class="fs-4">{{ translations[lang].feature3Title }}</h3>
+            <p class="text-muted">{{ translations[lang].feature3Desc }}</p>
+        </div>
+    </div>
+    <div class="text-center mt-2">
+        <a href="/{{ lang }}/features/" class="btn btn-outline-primary rounded-pill px-4">Alle Funktionen entdecken</a>
+    </div>
+</div>

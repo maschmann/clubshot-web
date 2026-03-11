@@ -1,0 +1,74 @@
+---
+layout: base.njk
+title: Features
+description: Learn more about the features of Clubshot.
+lang: en
+---
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="display-5 fw-bold">{{ translations[lang].featuresTitle }}</h1>
+    </div>
+    
+    <div class="row g-4 mb-5">
+        <div class="col-md-6">
+            <div class="p-4 border rounded-3 h-100 bg-body shadow-sm">
+                <div class="fs-1 mb-3 text-primary">👥</div>
+                <h3 class="fs-4">{{ translations[lang].featMemberTitle }}</h3>
+                <p class="text-muted">{{ translations[lang].featMemberDesc }}</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="p-4 border rounded-3 h-100 bg-body shadow-sm">
+                <div class="fs-1 mb-3 text-primary">📋</div>
+                <h3 class="fs-4">{{ translations[lang].featDutyTitle }}</h3>
+                <p class="text-muted">{{ translations[lang].featDutyDesc }}</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="p-4 border rounded-3 h-100 bg-body shadow-sm">
+                <div class="fs-1 mb-3 text-primary">🎯</div>
+                <h3 class="fs-4">{{ translations[lang].featSportTitle }}</h3>
+                <p class="text-muted">{{ translations[lang].featSportDesc }}</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="p-4 border rounded-3 h-100 bg-body shadow-sm">
+                <div class="fs-1 mb-3 text-primary">📱</div>
+                <h3 class="fs-4">{{ translations[lang].featPortalTitle }}</h3>
+                <p class="text-muted">{{ translations[lang].featPortalDesc }}</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="p-4 border rounded-3 h-100 bg-body shadow-sm">
+                <div class="fs-1 mb-3 text-primary">📅</div>
+                <h3 class="fs-4">{{ translations[lang].featEventTitle }}</h3>
+                <p class="text-muted">{{ translations[lang].featEventDesc }}</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="p-4 border rounded-3 h-100 bg-body shadow-sm">
+                <div class="fs-1 mb-3 text-primary">✉️</div>
+                <h3 class="fs-4">{{ translations[lang].featCommunicationTitle }}</h3>
+                <p class="text-muted">{{ translations[lang].featCommunicationDesc }}</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="p-4 border rounded-3 h-100 bg-body shadow-sm">
+                <div class="fs-1 mb-3 text-primary">📆</div>
+                <h3 class="fs-4">{{ translations[lang].featCalendarTitle }}</h3>
+                <p class="text-muted">{{ translations[lang].featCalendarDesc }}</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="p-4 border rounded-3 h-100 bg-body shadow-sm opacity-75">
+                <div class="fs-1 mb-3 text-secondary">ℹ️</div>
+                <h3 class="fs-4">{{ translations[lang].featFinanceTitle }}</h3>
+                <p class="text-muted">{{ translations[lang].featFinanceDesc }}</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="text-center mt-5">
+        <a href="/{{ lang }}/" class="btn btn-outline-primary rounded-pill px-4">{{ translations[lang].home }}</a>
+    </div>
+</div>
