@@ -3,6 +3,7 @@ module.exports = {
         home: "Startseite",
         features: "Funktionen",
         about: "Über uns",
+        imprint: "Impressum",
         cta: "Jetzt starten",
         footerRight: "Alle Rechte vorbehalten.",
         heroTitle: "Die smarte Vereinsverwaltung für Schützenvereine",
@@ -23,7 +24,7 @@ module.exports = {
         featEventTitle: "Veranstaltungsmanagement",
         featEventDesc: "Planen Sie Vereinsveranstaltungen inklusive Dienstplänen für eine reibungslose Organisation.",
         featCommunicationTitle: "Kommunikation",
-        featCommunicationDesc: "Erreichen Sie Ihre Mitglieder schnell und einfach über die integrierte Mitglieder-Mailing-Funktion.",
+        featCommunicationDesc: "Erreach Sie Ihre Mitglieder schnell und einfach über die integrierte Mitglieder-Mailing-Funktion.",
         featPortalTitle: "Mitgliederportal",
         featPortalDesc: "Im persönlichen Bereich können Mitglieder ihre Daten einsehen, Arbeitsstunden prüfen und auf einen zentralen Dokumentenbereich zugreifen.",
         featSportTitle: "Sportlicher Bereich",
@@ -35,12 +36,16 @@ module.exports = {
 
         aboutTitle: "Über Clubshot",
         aboutText1: "Clubshot ist die moderne Lösung für die Vereinsverwaltung, speziell entwickelt für die Bedürfnisse von Schützenvereinen (DSB und BDS).",
-        aboutText2: "Unser Ziel ist es, Vorständen und Mitgliedern das Vereinsleben so einfach und transparent wie möglich zu gestalten. Durch den Verzicht auf unnötige Komplexität und die Konzentration auf die wesentlichen Kernfunktionen wie Mitgliederverwaltung, Arbeitsdienste und das Schießbuch, sparen Sie wertvolle Zeit und reduzieren den administrativen Aufwand."
+        aboutText2: "Unser Ziel ist es, Vorständen und Mitgliedern das Vereinsleben so einfach und transparent wie möglich zu gestalten. Durch den Verzicht auf unnötige Komplexität und die Konzentration auf die wesentlichen Kernfunktionen wie Mitgliederverwaltung, Arbeitsdienste und das Schießbuch, sparen Sie wertvolle Zeit und reduzieren den administrativen Aufwand.",
+
+        imprintTitle: "Impressum",
+        imprintSubtitle: "Angaben gemäß § 5 TMG"
     },
     en: {
         home: "Home",
         features: "Features",
         about: "About Us",
+        imprint: "Imprint",
         cta: "Get Started",
         footerRight: "All rights reserved.",
         heroTitle: "The smart club management for shooting clubs",
@@ -73,6 +78,9 @@ module.exports = {
 
         aboutTitle: "About Clubshot",
         aboutText1: "Clubshot is the modern solution for club management, specifically developed for the needs of shooting clubs (DSB and BDS).",
-        aboutText2: "Our goal is to make club life as simple and transparent as possible for boards and members. By eliminating unnecessary complexity and focusing on essential core functions like member management, work duties, and the shooting log, you save valuable time and reduce administrative overhead."
+        aboutText2: "About Clubshot: Our goal is to make club life as simple and transparent as possible for boards and members. By eliminating unnecessary complexity and focusing on essential core functions like member management, work duties, and the shooting log, you save valuable time and reduce administrative overhead.",
+
+        imprintTitle: "Imprint",
+        imprintSubtitle: "Legal Disclosure"
     }
 };

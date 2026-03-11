@@ -1,0 +1,57 @@
+---
+layout: base.njk
+title: Imprint
+description: Legal disclosure and imprint of Clubshot.
+lang: en
+---
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 mt-4">
+            <h1 class="display-5 fw-bold mb-4">{{ translations[lang].imprintTitle }}</h1>
+            <p class="lead mb-5 text-muted">{{ translations[lang].imprintSubtitle }}</p>
+
+            <div class="mb-5">
+                <h3 class="fs-4 fw-bold">Service Provider</h3>
+                <p>
+                    EDV Beratung Aschmann<br>
+                    Musterstraße 123<br>
+                    12345 Musterstadt<br>
+                    Germany
+                </p>
+            </div>
+
+            <div class="mb-5">
+                <h3 class="fs-4 fw-bold">Contact Options</h3>
+                <p>
+                    E-mail address: <a href="mailto:info@myclubshot.de">info@myclubshot.de</a><br>
+                    Phone: +49 (0) 123 456789
+                </p>
+            </div>
+
+            <div class="mb-5">
+                <h3 class="fs-4 fw-bold">Owner</h3>
+                <p>
+                    Firstname Aschmann
+                </p>
+            </div>
+
+            <div class="mb-5">
+                <h3 class="fs-4 fw-bold">Value Added Tax (VAT)</h3>
+                <p>
+                    According to § 19 UStG (German Value Added Tax Act), we do not charge VAT (small business regulation).
+                </p>
+            </div>
+
+            <div class="mb-5">
+                <h3 class="fs-4 fw-bold">Online Dispute Resolution (ODR)</h3>
+                <p>
+                    The European Commission provides a platform for online dispute resolution (ODR), which can be found at <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener">https://ec.europa.eu/consumers/odr/</a>. Consumers have the possibility to use this platform to resolve their disputes.
+                </p>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="/{{ lang }}/" class="btn btn-outline-secondary rounded-pill px-4">{{ translations[lang].home }}</a>
+            </div>
+        </div>
+    </div>
+</div>
