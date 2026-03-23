@@ -1,0 +1,64 @@
+---
+layout: base.njk
+title: Kontakt
+lang: de
+---
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <h1 class="display-5 fw-bold mb-4">{{ translations[lang].contactTitle }}</h1>
+            <form action="https://formsubmit.co/contact@myclubshot.de" method="POST" id="contactForm">
+                <input type="hidden" name="_subject" value="Neue Kontaktanfrage">
+                
+                <div class="mb-3">
+                    <label for="subject" class="form-label">{{ translations[lang].contactSubject }} *</label>
+                    <select class="form-select" id="subject" name="subject" required>
+                        <option value="Angebot anfragen">{{ translations[lang].subjectOffer }}</option>
+                        <option value="Rückruf">{{ translations[lang].subjectCallback }}</option>
+                        <option value="Allgemeine Frage">{{ translations[lang].subjectGeneral }}</option>
+                    </select>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="name" class="form-label">{{ translations[lang].contactName }} *</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="email" class="form-label">{{ translations[lang].contactEmail }} *</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="phone" class="form-label">{{ translations[lang].contactPhone }}</label>
+                    <input type="tel" class="form-control" id="phone" name="phone">
+                </div>
+                
+                <div class="mb-4">
+                    <label for="message" class="form-label">{{ translations[lang].contactMessage }} *</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-lg rounded-pill px-5">{{ translations[lang].contactSubmit }}</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const subjectSelect = document.getElementById('subject');
+        const phoneInput = document.getElementById('phone');
+        
+        function updatePhoneRequirement() {
+            if (subjectSelect.value === 'Rückruf') {
+                phoneInput.required = true;
+            } else {
+                phoneInput.required = false;
+            }
+        }
+        
+        subjectSelect.addEventListener('change', updatePhoneRequirement);
+        updatePhoneRequirement();
+    });
+</script>

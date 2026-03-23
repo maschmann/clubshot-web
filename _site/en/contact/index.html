@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Clubshot</title>
-    <meta name="description" content="Learn more about Clubshot.">
+    <title>Contact - Clubshot</title>
+    <meta name="description" content="">
     <link rel="icon" type="image/svg+xml" href="/assets/faviconv2.1.svg">
     <link rel="icon" type="image/png" href="/assets/favicon-128x128.png">
     
@@ -63,26 +63,63 @@
     <main>
         <div class="container py-5">
     <div class="row justify-content-center">
-        <div class="col-lg-8 text-center mt-4">
-            <div class="mb-4">
-                <img src="/assets/Clubshotv2.1.svg" alt="Clubshot Logo" height="80" class="mb-3">
-            </div>
-            <h1 class="display-5 fw-bold mb-4">About Clubshot</h1>
-            <p class="lead mb-4">Clubshot is the modern solution for club management, specifically developed for the needs of shooting clubs (DSB and BDS).</p>
-            <p class="fs-5 text-muted mb-5">About Clubshot: Our goal is to make club life as simple and transparent as possible for boards and members. By eliminating unnecessary complexity and focusing on essential core functions like member management, work duties, and the shooting log, you save valuable time and reduce administrative overhead.</p>
-            
-            <hr class="my-5">
-            
-            <h3 class="fw-bold mb-3">Contact</h3>
-            <p class="text-muted">Interested? Contact us for more information.</p>
-            <a href="mailto:info@myclubshot.de" class="btn btn-primary rounded-pill px-5 my-3">info@myclubshot.de</a>
-            
-            <div class="mt-5">
-                <a href="/en/" class="btn btn-outline-secondary rounded-pill px-4">Home</a>
-            </div>
+        <div class="col-lg-8">
+            <h1 class="display-5 fw-bold mb-4">Contact</h1>
+            <form action="https://formsubmit.co/contact@myclubshot.de" method="POST" id="contactForm">
+                <input type="hidden" name="_subject" value="New Contact Request">
+                
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Subject *</label>
+                    <select class="form-select" id="subject" name="subject" required>
+                        <option value="Angebot anfragen">Angebot anfragen</option>
+                        <option value="Rückruf">Rückruf</option>
+                        <option value="Allgemeine Frage">Allgemeine Frage</option>
+                    </select>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name *</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email *</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone number (mandatory for callback)</label>
+                    <input type="tel" class="form-control" id="phone" name="phone">
+                </div>
+                
+                <div class="mb-4">
+                    <label for="message" class="form-label">Message *</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-lg rounded-pill px-5">Send message</button>
+            </form>
         </div>
     </div>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const subjectSelect = document.getElementById('subject');
+        const phoneInput = document.getElementById('phone');
+        
+        function updatePhoneRequirement() {
+            if (subjectSelect.value === 'Rückruf') {
+                phoneInput.required = true;
+            } else {
+                phoneInput.required = false;
+            }
+        }
+        
+        subjectSelect.addEventListener('change', updatePhoneRequirement);
+        updatePhoneRequirement();
+    });
+</script>
     </main>
 
     <footer class="bg-body-tertiary py-4 mt-5">

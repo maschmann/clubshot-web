@@ -24,11 +24,11 @@ module.exports = {
         featEventTitle: "Veranstaltungsmanagement",
         featEventDesc: "Planen Sie Vereinsveranstaltungen inklusive Dienstplänen für eine reibungslose Organisation.",
         featCommunicationTitle: "Kommunikation",
-        featCommunicationDesc: "Erreach Sie Ihre Mitglieder schnell und einfach über die integrierte Mitglieder-Mailing-Funktion.",
+        featCommunicationDesc: "Erreichen Sie Ihre Mitglieder schnell und einfach über die integrierte Mitglieder-Mailing-Funktion mit Gruppen- oder direkter Personenauswahl.",
         featPortalTitle: "Mitgliederportal",
         featPortalDesc: "Im persönlichen Bereich können Mitglieder ihre Daten einsehen, Arbeitsstunden prüfen und auf einen zentralen Dokumentenbereich zugreifen.",
         featSportTitle: "Sportlicher Bereich",
-        featSportDesc: "Jedes Mitglied führt ein persönliches, digitales Schießbuch. Fortschritte und Wettkampftracking können erfasst und als PDF exportiert werden.",
+        featSportDesc: "Jedes Mitglied führt ein persönliches, digitales Schießbuch. Fortschritte und Wettkampftracking können erfasst und als PDF exportiert werden, Disziplinen für DSB und BDS stehen in einer flexiblen Struktur zur Verfügung.",
         featCalendarTitle: "Kalender & Termine",
         featCalendarDesc: "Integrierter Kalender für alle Vereinsereignisse, bequem abonnierbar über praktische ICS-Feeds.",
         featFinanceTitle: "Finanzen",
@@ -39,7 +39,17 @@ module.exports = {
         aboutText2: "Unser Ziel ist es, Vorständen und Mitgliedern das Vereinsleben so einfach und transparent wie möglich zu gestalten. Durch den Verzicht auf unnötige Komplexität und die Konzentration auf die wesentlichen Kernfunktionen wie Mitgliederverwaltung, Arbeitsdienste und das Schießbuch, sparen Sie wertvolle Zeit und reduzieren den administrativen Aufwand.",
 
         imprintTitle: "Impressum",
-        imprintSubtitle: "Angaben gemäß § 5 TMG"
+        imprintSubtitle: "Angaben gemäß § 5 TMG",
+        contactTitle: "Kontakt",
+        contactSubject: "Betreff",
+        subjectOffer: "Angebot anfragen",
+        subjectCallback: "Rückruf",
+        subjectGeneral: "Allgemeine Frage",
+        contactName: "Name",
+        contactEmail: "E-Mail",
+        contactPhone: "Telefonnummer (Pflicht bei Rückruf)",
+        contactMessage: "Nachricht",
+        contactSubmit: "Nachricht senden"
     },
     en: {
         home: "Home",
@@ -81,6 +91,16 @@ module.exports = {
         aboutText2: "About Clubshot: Our goal is to make club life as simple and transparent as possible for boards and members. By eliminating unnecessary complexity and focusing on essential core functions like member management, work duties, and the shooting log, you save valuable time and reduce administrative overhead.",
 
         imprintTitle: "Imprint",
-        imprintSubtitle: "Legal Disclosure"
+        imprintSubtitle: "Legal Disclosure",
+        contactTitle: "Contact",
+        contactSubject: "Subject",
+        subjectOffer: "Angebot anfragen",
+        subjectCallback: "Rückruf",
+        subjectGeneral: "Allgemeine Frage",
+        contactName: "Name",
+        contactEmail: "Email",
+        contactPhone: "Phone number (mandatory for callback)",
+        contactMessage: "Message",
+        contactSubmit: "Send message"
     }
 };
