@@ -30,8 +30,21 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/de/features/">Funktionen</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dienste
+                        </a>
+                        <ul class="dropdown-menu shadow-sm border-0 mt-2" aria-labelledby="servicesDropdown">
+                            <li>
+                                <a class="dropdown-item py-2" href="/de/features/">Vereinsverwaltung (Funktionen)</a>
+                            </li>
+                            <li><hr class="dropdown-divider my-1"></li>
+                            <li>
+                                <a class="dropdown-item py-2 fw-medium text-primary" href="https://generator.myclubshot.de" target="_blank" rel="noopener">
+                                    Schießbuch Generator ↗
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/de/about/">Über uns</a>
@@ -117,10 +130,26 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="p-4 border rounded-3 h-100 bg-body shadow-sm opacity-75">
-                <div class="fs-1 mb-3 text-secondary">ℹ️</div>
-                <h3 class="fs-4">Finanzen</h3>
-                <p class="text-muted">Aktuell bieten wir bewusst noch keine Finanzverwaltung an. Unser Fokus liegt auf einer perfekten Organisation des sportlichen Vereinsalltags.</p>
+            <div class="p-4 border border-primary border-opacity-25 rounded-3 h-100 bg-body shadow-sm d-flex flex-column justify-content-between">
+                <div>
+                    <div class="fs-1 mb-3 text-primary">📖</div>
+                    <h3 class="fs-4 text-primary fw-bold">Kostenloser Schießbuch Generator</h3>
+                    <p class="text-muted mb-0">Nutzen Sie unseren kostenlosen, eigenständigen Schießbuch-Generator. Erstellen Sie Ihr Schießbuch ganz einfach online nach den offiziellen Vorgaben der deutschen Schützenverbände und laden Sie es als PDF herunter — komplett ohne Anmeldung.</p>
+                </div>
+                <div class="mt-4">
+                    <a href="https://generator.myclubshot.de" target="_blank" rel="noopener" class="btn btn-outline-primary rounded-pill px-4 fw-medium">
+                        Schießbuch erstellen ↗
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="p-4 border rounded-3 h-100 bg-body shadow-sm opacity-75 d-flex flex-column justify-content-between">
+                <div>
+                    <div class="fs-1 mb-3 text-secondary">ℹ️</div>
+                    <h3 class="fs-4">Finanzen</h3>
+                    <p class="text-muted mb-0">Aktuell bieten wir bewusst noch keine Finanzverwaltung an. Unser Fokus liegt auf einer perfekten Organisation des sportlichen Vereinsalltags.</p>
+                </div>
             </div>
         </div>
     </div>

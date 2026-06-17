@@ -30,8 +30,21 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/{{ lang }}/features/">{{ translations[lang].features }}</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            {{ translations[lang].services }}
+                        </a>
+                        <ul class="dropdown-menu shadow-sm border-0 mt-2" aria-labelledby="servicesDropdown">
+                            <li>
+                                <a class="dropdown-item py-2" href="/{{ lang }}/features/">{{ translations[lang].clubManagement }}</a>
+                            </li>
+                            <li><hr class="dropdown-divider my-1"></li>
+                            <li>
+                                <a class="dropdown-item py-2 fw-medium text-primary" href="https://generator.myclubshot.de" target="_blank" rel="noopener">
+                                    {{ translations[lang].generatorTitle }} ↗
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/{{ lang }}/about/">{{ translations[lang].about }}</a>
