@@ -1,0 +1,111 @@
+---
+layout: base.njk
+title: Clubshot Training Timer App
+description: The ultimate training companion on the shooting range with high-precision acoustic shot detection and split-time analysis.
+lang: en
+---
+<div class="container py-5">
+    <!-- Hero Section -->
+    <div class="text-center py-5 mb-5 bg-body-tertiary rounded-4 border shadow-sm px-4">
+        <span class="badge bg-danger rounded-pill px-3 py-2 fw-semibold mb-3">Android</span>
+        <span class="badge bg-primary rounded-pill px-3 py-2 fw-semibold mb-3">{{ translations[lang].timerComingSoon }}</span>
+        <h1 class="display-4 fw-bold mb-3">Clubshot - Training Timer & Score Calculator</h1>
+        <p class="lead text-muted mx-auto" style="max-width: 800px;">
+            The ultimate, privacy-friendly training companion on the shooting range. Developed by sports shooters for sports shooters!
+        </p>
+        <p class="text-muted mt-3 mb-0">
+            Whether short or long gun, individual training or discipline preparation - Clubshot combines a high-precision acoustic shot timer with an intelligent result calculator and discipline manager directly on your smartphone. Record shooting series fully automatically via microphone, analyze your shot cadences (splits) and manage your training results in seconds.
+        </p>
+    </div>
+
+    <!-- Feature Grid / Rows -->
+    <h2 class="display-6 fw-bold text-center mb-5">🚀 Highlights for Your Training</h2>
+
+    <div class="row g-5 py-3">
+        <!-- Feature 1 -->
+        <div class="col-md-6">
+            <div class="p-4 border rounded-4 h-100 bg-body shadow-sm">
+                <div class="fs-1 mb-3">⏱️</div>
+                <h3 class="fw-bold fs-4">1. High-Precision Shot Timer & Intelligent Detection</h3>
+                <ul class="text-muted mt-3">
+                    <li><strong>Fully Automatic Audio Recognition:</strong> Our highly sensitive DSP algorithm detects shots (or clapping sounds during dry-fire training) in real-time and stops the timer automatically on the last expected shot.</li>
+                    <li><strong>Real-Time Bandstop (Buzzer Blanking):</strong> The loud start chime (buzzer) is mathematically masked out – no false triggering at the start.</li>
+                    <li><strong>Intelligent Echo Suppression (AGC):</strong> An adaptive level filter prevents double detection caused by room echo, muzzle gas, or sonic booms.</li>
+                    <li><strong>Silent Delay Start:</strong> Freely configurable random start delay (e.g., 3–7 seconds) for a realistic preparation phase.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="col-md-6">
+            <div class="p-4 border rounded-4 h-100 bg-body shadow-sm">
+                <div class="fs-1 mb-3">🎯</div>
+                <h3 class="fw-bold fs-4">2. Full BDS & DSB Rules Compliance</h3>
+                <p class="text-muted">Train exactly according to the official sporting regulations of the Association of German Sports Shooters (BDS) and the German Shooting Federation (DSB):</p>
+                <ul class="text-muted">
+                    <li><strong>BDS Speed Shooting:</strong> Exact time limits and scores for pistol, rifle, and shotgun.</li>
+                    <li><strong>BDS Time Series & Skill (Long Gun 50m / 100m):</strong> Automatic navigation through all 3 identically structured stages of a session, including mandatory reload prompts.</li>
+                    <li><strong>DSB 2.53 (Rapid Fire Pistol 9mm):</strong> Precision and duel series with exact timing.</li>
+                    <li><strong>Freestyle Mode (IPSC):</strong> Free shooting training with individually adjustable par times.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="col-md-6">
+            <div class="p-4 border rounded-4 h-100 bg-body shadow-sm">
+                <div class="fs-1 mb-3">📊</div>
+                <h3 class="fw-bold fs-4">3. Professional Split-Time Analysis (Shot Cadence)</h3>
+                <ul class="text-muted mt-3">
+                    <li>See your shot times relative to the previous shot (true splits) rather than just relative to the start time.</li>
+                    <li>Detect rhythm issues immediately with average split time metrics per stage.</li>
+                    <li><strong>Interactive Sound Envelope:</strong> View the exact amplitude envelope of your shooting sequence on an intuitive graph (seconds on X-axis).</li>
+                    <li><strong>Retrospective Threshold Correction:</strong> Shot missed or clapped too softly? Adjust the DB threshold directly on the graph to automatically recalculate shots instantly!</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="col-md-6">
+            <div class="p-4 border rounded-4 h-100 bg-body shadow-sm">
+                <div class="fs-1 mb-3">✏️</div>
+                <h3 class="fw-bold fs-4">4. Results Calculator & Flexible Scoring</h3>
+                <p class="text-muted">Record your ring values in three convenient ways after shooting:</p>
+                <ul class="text-muted">
+                    <li><strong>Manual Scoring:</strong> Tap on individual shots and input their precise ring value (1–10, X) using the intuitive target keyboard overlay.</li>
+                    <li><strong>Fast Total Input:</strong> Don't want to enter every shot? Save your overall score (e.g., 92 / 100) instantly using a simple text input.</li>
+                    <li><strong>Deferred Scoring:</strong> Run all stages consecutively and log scores gathered at the end of training in peace.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="col-md-6">
+            <div class="p-4 border border-primary border-opacity-25 rounded-4 h-100 bg-body shadow-sm">
+                <div class="fs-1 mb-3">🔒</div>
+                <h3 class="fw-bold fs-4 text-primary">5. Maximum Privacy & Offline-First</h3>
+                <ul class="text-muted mt-3">
+                    <li><strong>100% Local & Independent:</strong> Your audio captures and training logs never leave your device. The app requires zero network access, working reliably deep in basement ranges.</li>
+                    <li><strong>No Raw Audio Saving:</strong> Only compressed volume envelopes (RMS data) are persisted, keeping your ambient voice and surroundings completely private.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Side Features -->
+        <div class="col-md-6">
+            <div class="p-4 border rounded-4 h-100 bg-body shadow-sm d-flex flex-column justify-content-center">
+                <h3 class="fw-bold fs-4 mb-3">📱 More Features</h3>
+                <ul class="text-muted mb-0">
+                    <li><strong>Consistent Aesthetic:</strong> Modern Material 3 Light/Dark theme inspired by myclubshot.de design.</li>
+                    <li><strong>Custom Profile:</strong> Manage name, shooting club, and save target delays or par presets.</li>
+                    <li><strong>History & Session Manager:</strong> Keep track of historical sessions on a cleanly laid out home screen to edit or delete entries anytime.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5 py-4">
+        <p class="text-muted">Want to get notified as soon as the Android App is published in the Play Store?</p>
+        <a href="/en/contact/" class="btn btn-primary rounded-pill px-5 py-3 shadow-sm fw-bold">Contact us!</a>
+    </div>
+</div>
