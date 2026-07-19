@@ -1,0 +1,85 @@
+---
+layout: base.njk
+title: Datenschutzerklärung (App)
+description: Datenschutzerklärung für die Clubshot Training Timer Mobile App.
+lang: de
+---
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 mt-4">
+            <h1 class="display-5 fw-bold mb-4">Datenschutzerklärung (Mobile App)</h1>
+            <p class="lead text-muted mb-5">
+                Datenschutz hat für uns einen extrem hohen Stellenwert. Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Erhebung und Verwendung von Daten innerhalb unserer mobilen Applikation „Clubshot“ (nachfolgend „App“) auf.
+            </p>
+
+            <div class="mb-5">
+                <h3 class="fs-4 fw-bold">1. Verantwortlicher</h3>
+                <p>
+                    Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) und anderer nationaler Datenschutzgesetze ist:
+                </p>
+                <p class="border-start border-primary border-3 ps-3">
+                    EDV Beratung Aschmann<br>
+                    Inhaber: Marc Aschmann<br>
+                    Johannesstr. 5<br>
+                    72657 Altenriet<br>
+                    Deutschland<br>
+                    E-Mail: <a href="mailto:info@myclubshot.de">info@myclubshot.de</a>
+                </p>
+            </div>
+
+            <div class="mb-5">
+                <h3 class="fs-4 fw-bold">2. Grundprinzip: 100 % Offline-First & Lokale Verarbeitung</h3>
+                <p>
+                    Unsere App ist nach dem Prinzip des „Privacy by Design“ entwickelt. 
+                </p>
+                <ul>
+                    <li><strong>Keine Serververbindung:</strong> Die App benötigt keine Internetverbindung für ihre Kernfunktionen und stellt keine unaufgeforderten Netzwerkverbindungen zu unseren Servern her.</li>
+                    <li><strong>Keine Benutzerregistrierung:</strong> Es ist keine Erstellung eines Accounts oder eine Registrierung erforderlich.</li>
+                    <li><strong>Lokaler Speicher:</strong> Alle eingegebenen Trainingsdaten, Schützenprofile und Sportergebnisse werden ausschließlich verschlüsselt oder unverschlüsselt im lokalen Sandboxed-Speicher Ihres Smartphones abgelegt.</li>
+                </ul>
+            </div>
+
+            <div class="mb-5">
+                <h3 class="fs-4 fw-bold">3. Mikrofonzugriff & Schusserfassung</h3>
+                <p>
+                    Zur Erkennung von Schussschallereignissen (bzw. Klatschgeräuschen beim Trockentraining) benötigt die App Zugriff auf das Mikrofon Ihres Geräts.
+                </p>
+                <ul>
+                    <li><strong>Echtzeit-Analyse:</strong> Die Audiosignale werden ausschließlich in Echtzeit auf dem Prozessor des Endgeräts durch mathematische DSP-Algorithmen (Digital Signal Processing) analysiert.</li>
+                    <li><strong>Keine Speicherung von Rohaudio:</strong> Es werden zu keinem Zeitpunkt Tonaufnahmen (Stimmen, Gespräche oder Umgebungsgeräusche) auf dem Speicher abgelegt oder übertragen.</li>
+                    <li><strong>RMS-Hüllkurvendaten:</strong> Gespeichert wird lediglich die komprimierte Lautstärken-Hüllkurve (RMS-Werte in Dezibel relativ zur Zeitachse), um den Schussverlauf visuell im Diagramm darzustellen. Stimmen oder Gespräche lassen sich daraus nicht rekonstruieren.</li>
+                </ul>
+            </div>
+
+            <div class="mb-5">
+                <h3 class="fs-4 fw-bold">4. Analysedienste & Drittanbieter-SDKs</h3>
+                <p>
+                    Wir setzen bewusst <strong>keine</strong> Analysedienste (wie z.B. Firebase Analytics, Google Analytics), keine Werbe-Netzwerke (wie z.B. AdMob) und keine sonstigen Tracking-SDKs von Drittanbietern ein. Ihre Nutzungsgewohnheiten bleiben komplett privat.
+                </p>
+            </div>
+
+            <div class="mb-5">
+                <h3 class="fs-4 fw-bold">5. Ihre Rechte (Betroffenenrechte)</h3>
+                <p>
+                    Da alle Daten ausschließlich auf Ihrem Gerät gespeichert sind und wir keinen Zugriff darauf haben, können Sie Ihre Rechte auf Löschung, Auskunft und Berichtigung jederzeit vollkommen selbstständig ausüben:
+                </p>
+                <ul>
+                    <li>Sie können alle Trainingsdaten direkt in den App-Einstellungen dauerhaft löschen.</li>
+                    <li>Durch Deinstallation der App werden sämtliche im App-Sandbox-Bereich abgelegten lokalen Daten und Einstellungen unwiderruflich von Ihrem Smartphone gelöscht.</li>
+                </ul>
+            </div>
+
+            <div class="mb-5">
+                <h3 class="fs-4 fw-bold">6. Änderungen dieser Datenschutzerklärung</h3>
+                <p>
+                    Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Dienste in der Datenschutzerklärung umzusetzen (z. B. bei der Einführung neuer App-Funktionen).
+                </p>
+                <p class="text-muted small">Stand: Juli 2026</p>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="/{{ lang }}/" class="btn btn-outline-secondary rounded-pill px-4">{{ translations[lang].home }}</a>
+            </div>
+        </div>
+    </div>
+</div>
