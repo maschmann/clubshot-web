@@ -60,6 +60,7 @@ module.exports = {
         timerTitle: "Training Timer App",
         timerSubtitle: "Shot-Timer & Ergebnisrechner",
         privacyAppTitle: "Datenschutz (App)",
+        privacyAppUrl: "/de/datenschutz-app/",
         timerComingSoon: "In Entwicklung (Coming Soon)",
         timerHighlightTitle: "Neu: Clubshot Training Timer",
         timerHighlightDesc: "Die ultimative, datenschutzfreundliche Trainingsbegleitung auf dem Schießstand mit hochpräziser akustischer Schusserfassung und split-time Analyse."
@@ -125,6 +126,7 @@ module.exports = {
         timerTitle: "Training Timer App",
         timerSubtitle: "Shot-Timer & Score Calculator",
         privacyAppTitle: "Privacy (App)",
+        privacyAppUrl: "/en/data-privacy/",
         timerComingSoon: "Under Development (Coming Soon)",
         timerHighlightTitle: "New: Clubshot Training Timer",
         timerHighlightDesc: "The ultimate, privacy-friendly training companion on the shooting range with high-precision acoustic shot detection and split-time analysis."
