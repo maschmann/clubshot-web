@@ -56,7 +56,13 @@ module.exports = {
         contactEmail: "E-Mail",
         contactPhone: "Telefonnummer (Pflicht bei Rückruf)",
         contactMessage: "Nachricht",
-        contactSubmit: "Nachricht senden"
+        contactSubmit: "Nachricht senden",
+        timerTitle: "Training Timer App",
+        timerSubtitle: "Shot-Timer & Ergebnisrechner",
+        privacyAppTitle: "Datenschutz (App)",
+        timerComingSoon: "In Entwicklung (Coming Soon)",
+        timerHighlightTitle: "Neu: Clubshot Training Timer",
+        timerHighlightDesc: "Die ultimative, datenschutzfreundliche Trainingsbegleitung auf dem Schießstand mit hochpräziser akustischer Schusserfassung und split-time Analyse."
     },
     en: {
         home: "Home",
@@ -115,6 +121,12 @@ module.exports = {
         contactEmail: "Email",
         contactPhone: "Phone number (mandatory for callback)",
         contactMessage: "Message",
-        contactSubmit: "Send message"
+        contactSubmit: "Send message",
+        timerTitle: "Training Timer App",
+        timerSubtitle: "Shot-Timer & Score Calculator",
+        privacyAppTitle: "Privacy (App)",
+        timerComingSoon: "Under Development (Coming Soon)",
+        timerHighlightTitle: "New: Clubshot Training Timer",
+        timerHighlightDesc: "The ultimate, privacy-friendly training companion on the shooting range with high-precision acoustic shot detection and split-time analysis."
     }
 };
