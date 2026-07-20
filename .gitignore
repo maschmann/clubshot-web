@@ -1,1 +1,7 @@
 node_modules
+_site/assets
+_site/css
+_site/de
+_site/en
+_site/index.html
+_site/js
